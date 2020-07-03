@@ -1,0 +1,1 @@
+This project should be installed as OPENJPEG20_DIR with ProjectTool.

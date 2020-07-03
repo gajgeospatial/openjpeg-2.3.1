@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openjp2", "src\lib\openjp2\openjp2.vcxproj", "{E20F10CD-1ED1-38BC-B0F9-499EEF58149A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opj_compress", "src\bin\jp2\opj_compress.vcxproj", "{D6433350-D56B-3311-A540-9B513998F6D1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E20F10CD-1ED1-38BC-B0F9-499EEF58149A} = {E20F10CD-1ED1-38BC-B0F9-499EEF58149A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opj_decompress", "src\bin\jp2\opj_decompress.vcxproj", "{1F39206C-AB6F-3C96-A8A3-2A6B5A746B3D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E20F10CD-1ED1-38BC-B0F9-499EEF58149A} = {E20F10CD-1ED1-38BC-B0F9-499EEF58149A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opj_dump", "src\bin\jp2\opj_dump.vcxproj", "{020805EC-F9FB-3496-BFBE-8F1E57F11205}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E20F10CD-1ED1-38BC-B0F9-499EEF58149A} = {E20F10CD-1ED1-38BC-B0F9-499EEF58149A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E20F10CD-1ED1-38BC-B0F9-499EEF58149A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E20F10CD-1ED1-38BC-B0F9-499EEF58149A}.Debug|Win32.Build.0 = Debug|Win32
+		{E20F10CD-1ED1-38BC-B0F9-499EEF58149A}.Release|Win32.ActiveCfg = Release|Win32
+		{E20F10CD-1ED1-38BC-B0F9-499EEF58149A}.Release|Win32.Build.0 = Release|Win32
+		{E20F10CD-1ED1-38BC-B0F9-499EEF58149A}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{E20F10CD-1ED1-38BC-B0F9-499EEF58149A}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{D6433350-D56B-3311-A540-9B513998F6D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D6433350-D56B-3311-A540-9B513998F6D1}.Debug|Win32.Build.0 = Debug|Win32
+		{D6433350-D56B-3311-A540-9B513998F6D1}.Release|Win32.ActiveCfg = Release|Win32
+		{D6433350-D56B-3311-A540-9B513998F6D1}.Release|Win32.Build.0 = Release|Win32
+		{D6433350-D56B-3311-A540-9B513998F6D1}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{D6433350-D56B-3311-A540-9B513998F6D1}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{1F39206C-AB6F-3C96-A8A3-2A6B5A746B3D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1F39206C-AB6F-3C96-A8A3-2A6B5A746B3D}.Debug|Win32.Build.0 = Debug|Win32
+		{1F39206C-AB6F-3C96-A8A3-2A6B5A746B3D}.Release|Win32.ActiveCfg = Release|Win32
+		{1F39206C-AB6F-3C96-A8A3-2A6B5A746B3D}.Release|Win32.Build.0 = Release|Win32
+		{1F39206C-AB6F-3C96-A8A3-2A6B5A746B3D}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{1F39206C-AB6F-3C96-A8A3-2A6B5A746B3D}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{020805EC-F9FB-3496-BFBE-8F1E57F11205}.Debug|Win32.ActiveCfg = Debug|Win32
+		{020805EC-F9FB-3496-BFBE-8F1E57F11205}.Debug|Win32.Build.0 = Debug|Win32
+		{020805EC-F9FB-3496-BFBE-8F1E57F11205}.Release|Win32.ActiveCfg = Release|Win32
+		{020805EC-F9FB-3496-BFBE-8F1E57F11205}.Release|Win32.Build.0 = Release|Win32
+		{020805EC-F9FB-3496-BFBE-8F1E57F11205}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{020805EC-F9FB-3496-BFBE-8F1E57F11205}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F39545F4-D37C-3520-A86B-F95CEBDDB871}
+	EndGlobalSection
+EndGlobal

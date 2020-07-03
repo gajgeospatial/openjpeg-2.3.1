@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Development/op3d_active/openjpeg-2.3.1/cmake/FindLCMS.cmake
+C:/Development/op3d_active/openjpeg-2.3.1/cmake/FindLCMS2.cmake
+C:/Development/op3d_active/openjpeg-2.3.1/thirdparty/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPNG.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindTIFF.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindZLIB.cmake
