@@ -4,17 +4,17 @@ VisualStudioVersion = 16.0.28315.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openjp2", "src\lib\openjp2\openjp2.vcxproj", "{E20F10CD-1ED1-38BC-B0F9-499EEF58149A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opj_compress", "src\bin\jp2\opj_compress.vcxproj", "{D6433350-D56B-3311-A540-9B513998F6D1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opj_compress", "src\exe\jp2\opj_compress.vcxproj", "{D6433350-D56B-3311-A540-9B513998F6D1}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E20F10CD-1ED1-38BC-B0F9-499EEF58149A} = {E20F10CD-1ED1-38BC-B0F9-499EEF58149A}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opj_decompress", "src\bin\jp2\opj_decompress.vcxproj", "{1F39206C-AB6F-3C96-A8A3-2A6B5A746B3D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opj_decompress", "src\exe\jp2\opj_decompress.vcxproj", "{1F39206C-AB6F-3C96-A8A3-2A6B5A746B3D}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E20F10CD-1ED1-38BC-B0F9-499EEF58149A} = {E20F10CD-1ED1-38BC-B0F9-499EEF58149A}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opj_dump", "src\bin\jp2\opj_dump.vcxproj", "{020805EC-F9FB-3496-BFBE-8F1E57F11205}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opj_dump", "src\exe\jp2\opj_dump.vcxproj", "{020805EC-F9FB-3496-BFBE-8F1E57F11205}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E20F10CD-1ED1-38BC-B0F9-499EEF58149A} = {E20F10CD-1ED1-38BC-B0F9-499EEF58149A}
 	EndProjectSection
